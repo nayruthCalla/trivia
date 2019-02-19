@@ -1,0 +1,143 @@
+body {
+    
+    background-image: url(image/descarga1.jpg);
+    background-position: no-repeat:
+    
+
+}
+
+
+.cont1 {
+    width: 600px;
+    height: 550px;
+    margin: 0 auto;
+    /*background-color: #fff;*/
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 3px solid #400040;
+    box-shadow: 15px 20px 7px #004040;
+    margin-bottom: 20px;
+    background-color: rgba(0, 128, 0, 0.6);
+
+
+
+
+}
+
+h1 {
+    background-color: #334009;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+h2{    
+    background-color: #D6D125;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 70px;
+    margin-top: 100px;
+    opacity: 0.9;   
+}
+h3{
+   font-family: "sans-serif";
+    background-color: #777777;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    margin-top: 50px 
+}
+ 
+ #preguntas,#preguntas1{
+    height: 900px;
+   
+    background-color: #fff;
+   
+ }
+ #cont3{
+    background-color: #fff;
+    height: 700px;
+    align-items: center;
+ }
+ #preguntas,#cont2,#cont3,#preguntas1{
+    display: none;
+    
+ }
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #5A6772;
+}
+
+#btn0,#btn1 {
+    margin-top: 40px;
+    height: 100px;
+     font-size: 80px;
+
+}
+h1,h2, #btn0,#btn1{
+    box-shadow: 15px 20px 7px #004040;
+    font-family: 'Uncial Antiqua';
+}
+
+#btn0, #btn1, #next,#btnMath,#btnLiter,#button,#btnMain {
+    font-family: 'Uncial Antiqua';
+    background-color: #D52D24;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+#button{
+    margin-top: 2px;
+}
+
+#user{
+   width: 250px;
+    font-size: 20px; 
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+#next{
+    background-color: #000066
+}
+
+#btn0:hover, #btn1:hover{
+    cursor: pointer;
+    background-color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #next{
+    outline: 0;
+}
+#messages{
+    font-size: 30px;
+    font-family: 'Uncial Antiqua';
+}
+#number_correct{
+    font-size: 20px;
+    font-family: 'Uncial Antiqua';
+}
+#pictures{
+    height: 200px;
+}
+ #btnMain{
+   margin-left: auto;
+  margin-right: auto;
+ }

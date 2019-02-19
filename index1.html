@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia-Matemática-Literatura </title>
+   <link rel="shortcut icon" href="image/favicon.jpg" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="cont1" id="inicio">
+	 <center><h1><div id="named">Bienvenida</div></h1></center>
+     	 <div >
+ 			<h2 id=showwindow>
+ 			<form>Ingresa tu nombre:<br>
+    			<input id="user" type="text"  name="Ingresa tu nombre"><br>
+    			<input id="next" type="button" value="aceptar" onclick="showname()">
+			 </form>
+ 			</h2>
+ 		 </div>
+ 		 <div  id="cont2">
+	
+		<h2>Pon aprueba tus conocimientos</h2>
+		
+		<div class="buttons" id="option">
+                <!-- <button id="btn0" onclick="option()"><span id="choice0"></span>si</button> -->
+                <input type="button" value="Matemática" onclick="option()" id="btn0">
+                 <input type="button" value="Literatura" onclick="option1()" id="btn1">
+               
+        </div>
+		</div>
+	
+ 	
+	</div>
+	
+	<!--Preguntas matematica-->
+	<div class="cont1" id="preguntas">
+		<h2>BIENVENIDA!</h2>
+		<h3>¿Cuánto sabes de Matematica Basica?</h3>
+		<form  name='quiz' id="matematicas1" >
+
+      <div id='question1Checked'>
+        <p>1) Hallar (5^2)-2</p>
+        <input type='radio' name='question1' class="rpt" value='23'> 23<br>
+        <input type='radio' name='question1' class="rpt" value='7'> 7<br>
+        <input type='radio' name='question1' class="rpt" value='5'> 5<br>
+
+      </div>
+
+      <div id='question2Checked'>
+        <p>2) hallar -2+2*5+2</p>
+        <input type='radio' name='question2' class="rpt" value='25'> 25 <br>
+        <input type='radio' name='question2' class="rpt" value='10'> 10 <br>
+        <input type='radio' name='question2'  class="rpt" value='30'> 30 <br>
+
+      </div>
+      <div id='question3Checked'>
+        <p>3) ¿Hallar -9+9*1=?</p>
+        <input type='radio' name='question3' class="rpt" value='0'> 0<br>
+        <input type='radio' name='question3' class="rpt" value='12'> 12<br>
+        <input type='radio' name='question3' class="rpt" value='6'> 6<br>
+
+      </div>
+      <div id='question4Checked'>
+        <p>4) ¿Cuál es la derivada de: d(-sen)=?</p>
+        <input type='radio' name='question4' class="rpt" value='-cos'> -cos<br>
+        <input type='radio' name='question4' class="rpt" value='sen'> sen<br>
+        <input type='radio' name='question4' class="rpt" value='cos'> cos<br>
+
+      </div>
+
+      <div id='question5Checked'>
+        <p>5) ¿Cuántos lados iguales tiene un triángulo equilátero?</p>
+        <input type='radio' name='question5' class="rpt" value='1'>1<br>
+        <input type='radio' name='question5' class="rpt" value='3'>3<br>
+        <input type='radio' name='question5' class="rpt" value='5'>5<br>
+
+      </div>
+      <input id='button' type='button' value='¡Terminé!' onclick='check()'>
+
+    </form>
+
+
+	</div>
+	
+	<!--Preguntas literatura-->
+	<div class="cont1" id="preguntas1">
+		<h2>BIENVENIDA!</h2>
+		<h3>¿Cuanto sabes de Literarura?</h3>
+		<form  name='quiz1' id="literatura1">
+
+      <div id='question1Checkedb'>
+        <p>1)¿Quién escribió la obra la Ciudad y los perros ?</p>
+        <input type='radio' name='question1b' value='MVL'> Mario Vargas Llosa<br>
+        <input type='radio' name='question1b' value='AV'> Abraham Valdelomar<br>
+        <input type='radio' name='question1b' value='CV'> Cesar Vallejo<br>
+
+      </div>
+
+      <div id='question2Checkedb'>
+        <p>2)¿Quién escribió la obra Aves sin Nido ?</p>
+        <input type='radio' name='question2b' value='MB'>Micaela Bastidas<br>
+        <input type='radio' name='question2b' value='CMT'> Clorinda Matto de Turner <br>
+        <input type='radio' name='question2b' value='TC'> Teresa Calcuta<br>
+
+      </div>
+      <div id='question3Checkedb'>
+        <p>3) ¿Quién escribió la poesía "trilce"?</p>
+        <input type='radio' name='question3b' value='RP'> Ricardo Palma<br>
+        <input type='radio' name='question3b' value='MCS'> Miguel de Cervantes Saavedra<br>
+        <input type='radio' name='question3b' value='CV'> Cesar Vallejo <br>
+
+      </div>
+      <div id='question4Checkedb'>
+        <p>4) ¿Quién escribió el poema la Iliada?</p>
+        <input type='radio' name='question4b' value='H'>Homero<br>
+        <input type='radio' name='question4b' value='HERO'> Heródoto<br>
+        <input type='radio' name='question4b' value='ULI'> Ulises<br>
+
+      </div>
+
+      <div id='question5Checkedb'>
+        <p>5) ¿Quién escribió el cuento "EL CABALLERO CARMELO"?</p>
+        <input type='radio' name='question5b' value='AV'>Abraham Valdelomar<<br>
+        <input type='radio' name='question5b' value='JH'>Javier Heraud<br>
+        <input type='radio' name='question5b' value='IGV'>Inca Garcilazo de la Vega<br>
+
+      </div>
+      <input id='button' type='button' value='¡Terminé!' onclick='check1()'>
+
+    </form>
+
+
+	</div>
+	<div id="cont3" class="cont1">
+      
+<!--id para mensaje de submit-->
+      <p id='messages'></p>
+      <p id='number_correct'></p>
+      <img id='pictures'>
+      <!-- <div class="cont1" id="find"> -->
+     <h2>¿Quieres jugar otra vez?</h2>
+
+      <input id= 'btnMath' type='button' value='Matemática' onclick='option()'>
+      <input id= 'btnLiter' type='button' value='Literarura' onclick='option1()'>
+      <input id= 'btnMain' type='button' value='Regresar' onclick='location.reload()'>
+
+   
+
+   </div>
+   <img id='pictures'>
+    
+<script src="app.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
+
+
+	
+</body>
+</html>
